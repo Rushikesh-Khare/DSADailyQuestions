@@ -18,6 +18,7 @@ public class Solution {
                 me = nums[i];
                 count = 1;
             }
+            System.out.println("nothing just experimenting");
         }
         return me;
     }
