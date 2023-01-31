@@ -1,0 +1,12 @@
+Intuition
+if majority element count is more than half of length of array it will be majority element
+
+Approach
+consider 1st element is majority element and then traverse through array make count 1
+if you get majority element increase count else decrease count
+if count is zero make current element as majority element make count 1 and continue
+after exhosted array return majority element
+
+Complexity
+Time complexity:O(N)
+Space complexity:O(1)
